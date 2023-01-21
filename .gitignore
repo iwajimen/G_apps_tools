@@ -1,0 +1,8 @@
+.venv
+.python-version
+poetry.lock
+pyproject.toml
+.env
+data
+doc
+__pycache__

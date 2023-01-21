@@ -1,0 +1,10 @@
+# OAuth 2.0 クライアントの認証情報を指定（renameしています）
+client_config_file: ./.env/client_secret_98097418871-3asks204cs03pmk9k1j0ts7528458f4h.apps.googleusercontent.com.json
+
+# 認証情報をファイルに保存する設定
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: ./.env/saved_credentials.json
+
+# 認証情報(credentials)を自動で更新する設定（ブラウザが立ち上がらなくなる）
+get_refresh_token: True
