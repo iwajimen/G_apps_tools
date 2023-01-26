@@ -6,3 +6,4 @@ pyproject.toml
 data
 doc
 __pycache__
+.DS_store

@@ -11,4 +11,3 @@ def find_id(doc):
 def extract_fileid(doc_list):
     doc_list["file_id"] = doc_list["link"].apply(find_id)
     return doc_list
-        
